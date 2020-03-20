@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/main_page.xsl"?>
+<!DOCTYPE exercise SYSTEM "exercise.dtd">
+<exercise>
+  <!--다른 xml파일로 옮겨갈 link요소-->
+  <hyper_link>
+    <main_page file="./main.xml"/>
+    <upper_page file="./upper.xml"/>
+    <chest_page file="./chest_exercise.xml"/>
+    <back_page file="./back_exercise.xml"/>
+    <lower_page file="./lower.xml"/>
+    <calf_page file="./calf_exercise.xml"/>
+    <thigh_page file="./thigh_exercise.xml"/>
+    <arm_page file="./arm_exercise.xml"/>
+    <abs_page file="./abs_exercise.xml"/>
+  </hyper_link>
+  
+  <!--상체 DATA-->
+  <upper file="../background/chest.jpg">
+    
+    <!--등-->
+    <back file="../data/상체/등/back.jpg">
+      <explain>몸의 뒷부분으로 몸통을 지탱하는 근골격축의 신체 부위이다.</explain>
+      <exercise_tool>
+
+        <only_body>
+          <name language="Korean">풀업</name>
+          <name language="English">Pull Up</name>
+          <method1>1. 철봉 앞에 서서 어깨너비보다 넓게 손잡이를 두 손으로 잡는다.철봉에 올라가서 매달린다.</method1>
+          <method2>2. 몸을 살짝 뒤로 젖히면서 가슴 윗부분이 바에 닿을 정도로 광배근의 힘으로 상체를 끌어올린다.</method2>
+          <method3>3. 광배근이 스트레칭되는 것을 느끼면서 천천히 시작 자세로 돌아온다.</method3>
+          <image file="../data/상체/등/pull_up.png"/>
+          <youtube link="https://www.youtube.com/watch?v=oPK4Ysdvmi0"/>
+        </only_body>
+
+        <machine>
+          <name language="Korean">랫 풀 다운</name>
+          <name language="English">Lat Pull Down</name>
+          <method1>1. 두 손으로 V자 모양이 되도록 넓게 바를 잡는다.</method1>
+          <method2>2. 의자에 앉아, 바와 가슴이 수직으로 만나는 지점 아래에 허벅지를 지지대에 고정시킨다.</method2>
+          <method3>3. 가슴을 위쪽으로 들어주면서 쇄골 아랫부분이 바에 닿을 정도로 광배근의 힘으로 바를 끌어내린다.</method3>
+          <image file="../data/상체/등/lat-pulldown.png"/>
+          <youtube link="https://www.youtube.com/watch?v=Nw59Ikf81_Q"/>
+        </machine>
+        
+        
+        <barbell>
+          <name language="Korean">벤트 오버 로우</name>
+          <name language="English">Bent Over Row</name>
+          <method1>1. 어깨너비보다 약간 넓게 바벨을 잡고, 양발은 어깨너비만큼 벌리고 선다.</method1>
+          <method2>2. 무릎을 약간 굽히고 등을 아치형으로 만든 후 45도 정도 상체를 숙인다.</method2>
+          <method3>3. 복부에 힘을 주고 바벨을 하복부 쪽으로 끌어당긴다.</method3>
+          <method4>4. 광배근이 스트레칭되는 것을 느끼며 천천히 바벨을 내려 처음 자세로 돌아온다.</method4>
+          <image file="../data/상체/등/Bent-Over-Row.png"/>
+          <youtube link="https://www.youtube.com/watch?v=4GQv4F2koCs"/>
+        </barbell>
+        
+      </exercise_tool>
+    </back>
+    
+    <!--가슴-->
+    <chest file="../data/상체/가슴/chest.jpg">
+        <explain>가슴의 앞쪽, 위쪽을 광범위하게 덮고 있는 큰 부채꼴 모양의 근육이다.</explain>
+        <exercise_tool>
+          <barbell>
+            <name language="Korean">벤치 프레스</name>
+            <name language="English">Bench Press</name>
+            <method1>1. 벤치에 누워 엉덩이와 견갑골을 등받이에 최대한 붙이고 허리는 아치형을 만들어준다.</method1>
+            <method2>2. 어깨너비 두 배로 바를 잡고 바벨을 든다.바벨을 들어 쇄골 아랫부분과 수직이 되게 바를 위치시키면서 팔꿈치를 살짝 구부린다.</method2>
+            <method3>3. 손목은 꺾이지 않도록 주의하면서 가슴과 바가 자석처럼 서로 만나는 느낌으로 바벨을 쇄골 아랫부분과 약간 떨어진 정도까지 당긴다.</method3>
+            <method4>4. 겨드랑이에 힘을 주는 느낌으로 바벨을 밀어 올린다.</method4>
+            <image file="../data/상체/가슴/bench_press.jpg"/>
+            <youtube link="https://www.youtube.com/watch?v=KyQiUIBvutI"/>
+          </barbell>
+          
+          <only_body>
+            <name language="Korean">푸시업</name>
+            <name language="English">Push Up</name>
+            <method1>1. 엎드린 자세에서 어깨너비 두 배 정도로 두 손을 바닥에 짚고, 발뒤꿈치를 든 상태에서 팔과 무릎을 곧게 편다.</method1>
+          	<method2>2. 가슴을 바닥 쪽으로 내미는 느낌으로 팔꿈치를 구부려 바닥에 닿기 전까지 몸을 내린다.</method2>
+          	<method3>3. 겨드랑이에 힘을 주면서 가슴을 모아주는 느낌으로 팔을 편다.</method3>
+            <image file="../data/상체/가슴/pushup.jpg"/>
+            <youtube link="https://www.youtube.com/watch?v=Nsu_xA02ieU"/>
+          </only_body>
+          
+          <machine id="1">
+            <name language="Korean">케이블 크로스 오버</name>
+            <name language="English">Cable Cross Over</name>
+            <method1>1. 케이블의 양쪽 손잡이를 잡고 기구 중앙에 서서 엉덩이 너비만큼 발을 벌린다.</method1>
+	          <method2>2. 무릎을 약간 굽히고 상체를 앞으로 살짝 숙여 중심을 잡은 다음 최대한 팔을 벌린다.</method2>
+	          <method3>3. 겨드랑이에 힘을 주고 가슴 안쪽이 모아지게 하면서 안아주는 느낌으로 손잡이를 당긴다.</method3>
+	          <method4>4. 가슴근육이 스트레칭되는 느낌을 느끼며 다시 서서히 팔을 벌리며 원위치한다.</method4>
+            <image file="../data/상체/가슴/cable_cross_over.jpg"/>
+            <youtube link="https://www.youtube.com/watch?v=4DPd86SrdY0"/>
+          </machine>
+          
+          <machine id="2">
+            <name language="Korean">플라이</name>
+            <name language="English">Fly</name>
+            <method1>1.견갑골과 엉덩이를 등받이에 최대한 붙이고 허리는 10cm가량 아치형을 만든다.</method1>
+	          <method2>2.팔꿈치를 90도 정도 구부려 팔꿈치가 가슴 중앙과 수평이 되도록 하면서 전완을 패드에 밀착시킨다</method2>
+            <method3>3.겨드랑이에 힘을 주고 패드를 가슴 안쪽으로 모아준다.</method3>
+	          <method4>4.저항을 느끼면서 패드를 원위치시킨다.</method4>
+            <image file="../data/상체/가슴/fly.jpg"/>
+            <youtube link="https://www.youtube.com/watch?v=H-RM4stCBv4"/>
+          </machine>
+        </exercise_tool>
+        
+    </chest>
+    
+    <!--복근-->
+    <abdomen file="../data/상체/복근/abs.jpg">
+        <explain>복부의 앞에 위치한 근육이며 배곧은근육과 나눔힘줄로 구성된다. 식스팩이란 이름으로 널리 알려져있는 근육이다.</explain>
+        <exercise_tool>
+          
+          <only_body>
+            <name language="Korean">크런치</name>
+            <name language="English">Crunch</name>
+            <method1>1.바닥에 누워 무릎을 구부리고 발이 바닥과 떨어지지 않도록 한다.</method1>
+	          <method2>2.양손을 귀에 대고 복부에 힘을 주면서 고개를 살짝 든다.</method2>
+	          <method3>3.어깨가 바닥에서 약 10cm 떨어지도록 등을 둥글게 구부리면서 상복부를 수축한다.</method3>
+	          <method4>4.상복부의 긴장을 느끼면서 천천히 몸통을 바닥으로 눕힌다.이때 머리가 완전히 바닥에 닿지 않도록 한다.</method4>
+            <image file="../data/상체/복근/crunch.png"/>
+            <youtube link="https://www.youtube.com/watch?v=JbTnuy9OY4o"/>
+          </only_body>
+          
+          <only_body>
+            <name language="Korean">리버스 크런치</name>
+            <name language="English">Reverse Crunch</name>
+            <method1>1.벤치에 누워 벤치 윗부분을 두 손으로 잡는다.</method1>
+	          <method2>2.다리를 들고 무릎을 살짝 구부린다.</method2>
+	          <method3>3.허리가 벤치 바닥에서 10cm 정도 떨어질 때까지 골반을 둥글게 말아 올린다.</method3>
+          	<method4>4.하복부의 긴장을 유지하면서 다리를 천천히 내리며 원위치한다.</method4>
+            <image file="../data/상체/복근/reversecrunch.png"/>
+            <youtube link="https://www.youtube.com/watch?v=GqB0z9hxP88"/>
+          </only_body>
+          
+        </exercise_tool>
+    </abdomen>
+    
+    <!--팔-->
+    <arm file="../data/상체/팔/arm.jpg">
+        <explain>팔근육은 어깨와 손목 사이에 위치한 근육들을 말한다.</explain>
+        <exercise_tool>
+        
+          <barbell>
+            <name language="Korean">바벨 컬</name>
+            <name language="English">Barbell Curl</name>
+            <method1>1.두 손으로 바벨을 어깨너비로 잡고 다리도 어깨너비만큼 벌리고 선다.</method1>
+            <method2>2.팔꿈치를 옆구리에 고정시키고, 이두근의 힘을 이용해 바벨을 들어올린다.손의 방향은 삼각근 전면을 향하도록 한다.</method2>
+            <method3>3.천천히 이두근의 저항을 느끼면서 바벨을 내린다.</method3>
+            <image file="../data/상체/팔/barbell.png"/>
+            <youtube link="https://www.youtube.com/watch?v=XRk9dp-nUYI"/>
+          </barbell>
+          
+          <only_body>
+            <name language="Korean">딥스 벤치</name>
+            <name language="English">Dips Bench</name>
+            <method1>1.팔로 지탱하며 엉덩이를 벤치에서 띄운다.</method1>
+            <method2>2.팔이 수직이 될 때까지 굽히며 몸을 내린다.</method2>
+            <method3>3.삼두근의 힘으로 팔꿈치를 펴면서 원위치한다.</method3>
+            <image file="../data/상체/팔/dips.png"/>
+            <youtube link="https://www.youtube.com/watch?v=BytxCXiTSFA"/>
+          </only_body>
+          
+          <barbell>
+            <name language="Korean">바벨 리스트 컬</name>
+            <name language="English">Barbell Wrist Curl</name>
+            <method1>1.무릎을 꿇고 벤치 앞에 앉는다.</method1>
+            <method2>2.바벨을 어깨너비보다 약간 좁은 상태로 손바닥이 위를 향하게 잡고 벤치 위에 전완부를 올려놓는다.</method2>
+            <method3>3.손목을 바닥 쪽으로 구부리면서 바벨을 내린다.</method3>
+            <method4>4.손목을 위로 올려 바벨을 들어올린다.</method4>
+            <image file="../data/상체/팔/wrist_curl.png"/>
+            <youtube link="https://www.youtube.com/watch?v=gWiMZjKhVxE"/>
+          </barbell>
+          
+          <barbell>
+            <name language="Korean">바벨 리버스 컬</name>
+            <name language="English">Barbell Reverse Curl</name>
+            <method1>1.무릎을 꿇고 벤치 앞에 앉는다.</method1>
+            <method2>2.바벨을 어깨너비보다 약간 좁은 상태로 손등이 위를 향하게 잡고 벤치 위에 전완부를 올려놓는다.</method2>
+            <method3>3.손목을 바닥 쪽으로 구부리면서 바벨을 내린다.</method3>
+            <method4>4.손목을 위로 올려 바벨을 들어올린다.</method4>
+            <image file="../data/상체/팔/reverse.jpg"/>
+            <youtube link="https://www.youtube.com/watch?v=GgPVqddvDJE"/>
+          </barbell>
+          
+        </exercise_tool>
+    </arm>
+  </upper>
+  
+  <!--하체 DATA-->
+  <lower file="../background/lower.jpg">
+    
+    <!--허벅지-->
+    <thigh file="../data/하체/허벅지/thigh.jpg">
+      <explain>허벅지(넓적다리)는 엉덩관절과 무릎관절의 사이를 말한다.</explain>
+      <exercise_tool>
+      
+      <only_body>
+        <name language="Korean">스쿼트</name>
+        <name language="English">Squat</name>
+        <method1>1. 다리를 어깨너비만큼 벌리고 양손은 허리에 위치시킨다.</method1>
+	      <method2>2. 호흡을 들이마시면서 천천히 무릎을 굽힌다. 이때 무릎이 엄지발가락을 향하도록 한다</method2>
+	      <method3>3. 호흡을 내쉬면서 무릎을 편다. 이때 안쪽 허벅지와 엉덩이에 긴장감을 느끼며 올라온다. 동작을 반복한다.</method3>
+        <image file="../data/하체/허벅지/스쿼트.png"/>
+        <youtube link="https://www.youtube.com/watch?v=ARGOv5eQk50"/>
+      </only_body>
+      
+      <barbell>
+        <name language="Korean">데드리프트</name>
+        <name language="English">Dead Lift</name>
+        <method1>1. 바벨을 들고 양발 사이에 발 하나가 들어갈 정도로 좁게 선다.어깨가 굽지 않도록 시선을 앞쪽에 두고 가슴을 내밀어 준다.</method1>
+	      <method2>2. 등의 각도가 지면과 수평에 가까워질 때까지 상체를 숙인다.시선은 45도 앞을 바라본다.</method2>
+	      <method3>3. 대퇴이두근의 힘을 이용하여 상체를 일으킨다.</method3>
+        <image file="../data/하체/허벅지/데드리프트.png"/>
+        <youtube link="https://www.youtube.com/watch?v=sznUpzoXvaM"/>
+      </barbell>
+      
+      <dumbell>
+        <name language="Korean">덤벨 런지</name>
+        <name language="English">Dumbel Lunge</name>
+        <method1>1. 덤벨을 양손에 들고 두 발을 골반너비로 벌리고 허리에 손을 대고 바로 선다.</method1>
+	      <method2>2. 오른발을 앞으로 70~100cm 정도 벌려 내밀고, 왼발의 뒤꿈치를 세운다. 이때 시선은 정면을 향한다.</method2>
+	      <method3>3. 등과 허리를 똑바로 편 상태에서 오른쪽 무릎을 90도로 구부리고 왼쪽 무릎은 바닥에 닿는 느낌으로 몸을 내린다.</method3>
+	      <method4>4. 하체의 힘을 이용하여 천천히 처음 자세로 돌아온다. 동작을 반복한다.</method4>
+	      <method5>5. 반대쪽도 같은 방법으로 반복 실시한다.</method5>
+	      <image file="../data/하체/허벅지/덤벨_런지.png"/>
+	      <youtube link="https://www.youtube.com/watch?v=0vjwe1efNjc"/>
+      </dumbell>
+      
+      <machine>
+        <name language="Korean">레그 컬</name>
+        <name language="English">Leg Curl</name>
+        <method1>1. 슬개골이 벤치 끝을 살짝 넘어오도록 위치시킨 후 기구 위에 엎드려 손잡이를 잡는다.발목을 기구에 걸고 아킬레스건 위에 롤패드가 오도록 위치시킨다.</method1>
+	      <method2>2. 허벅지 힘으로 패드를 끌어당기며 무릎을 굽힌다.</method2>
+	      <method3>3. 천천히 저항을 느끼며 다리를 내린다.</method3>
+        <image file="../data/하체/허벅지/레그컬.png"/>
+        <youtube link="https://www.youtube.com/watch?v=EA8WyX91Dng"/>
+      </machine>
+      
+      </exercise_tool>
+    </thigh>
+    
+    <!--종아리-->
+    <calf file="../data/하체/종아리/calf.jpg">
+      <explain>무릎과 발목 사이의 다리 뒤쪽 부분을 가리키는 말이다.</explain>
+      <exercise_tool>
+      
+        <dumbell>
+          <name language="Korean">싱글 레그 카프 레이즈</name>
+          <name language="English">Single Leg Calf Raise</name>
+          <method1>1. 한 손으로 덤벨과 기둥을 잡고 한쪽 발을 들고 받침대에 대고 선다. </method1>
+          <method2>2. 최대한 높이 뒤꿈치를 들어 올린 후, 잠시 멈춘다. </method2>
+          <method3>3. 천천히 뒤꿈치를 내린다.</method3>
+          <image file="../data/하체/종아리/싱글_레그_카프_레이즈.jpg"/>
+          <youtube link="https://www.youtube.com/watch?v=rxlIeOpkE6o"/>
+        </dumbell>
+        
+        <machine>
+          <name language="Korean">레버 스탠딩 카프 레이즈</name>
+          <name language="English">Lever Standing Calf Raise</name>
+          <method1>1. 기구에 양발을 받침대에 대고 선다.</method1>
+          <method2>2. 최대한 높이 뒤꿈치를 들어 올린 후, 잠시 멈춘다. </method2>
+          <method3>3. 천천히 뒤꿈치를 내린다.</method3>
+          <image file="../data/하체/종아리/standing_calf_raise.png"/>
+          <youtube link="https://www.youtube.com/watch?v=cfGjUfRy_4M"/>
+        </machine>
+        
+      </exercise_tool>
+      
+    </calf>
+  </lower>
+  
+</exercise>

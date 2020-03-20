@@ -1,0 +1,75 @@
+<!ELEMENT exercise (hyper_link, upper, lower)>
+<!ELEMENT hyper_link (main_page, upper_page, chest_page, back_page, lower_page, calf_page, thigh_page, arm_page, abs_page)>
+<!ELEMENT main_page (#PCDATA)>
+<!ATTLIST main_page
+          file CDATA #REQUIRED>
+<!ELEMENT upper_page (#PCDATA)>
+<!ATTLIST upper_page
+          file CDATA #REQUIRED>
+<!ELEMENT chest_page (#PCDATA)>
+<!ATTLIST chest_page
+          file CDATA #REQUIRED>
+<!ELEMENT back_page (#PCDATA)>
+<!ATTLIST back_page
+          file CDATA #REQUIRED>
+<!ELEMENT lower_page (#PCDATA)>
+<!ATTLIST lower_page
+          file CDATA #REQUIRED>
+<!ELEMENT calf_page (#PCDATA)>
+<!ATTLIST calf_page
+          file CDATA #REQUIRED>
+<!ELEMENT thigh_page (#PCDATA)>
+<!ATTLIST thigh_page
+          file CDATA #REQUIRED>
+<!ELEMENT arm_page (#PCDATA)>
+<!ATTLIST arm_page
+          file CDATA #REQUIRED>
+<!ELEMENT abs_page (#PCDATA)>
+<!ATTLIST abs_page
+          file CDATA #REQUIRED>
+<!ELEMENT upper (back, chest, abdomen, arm)>
+<!ATTLIST upper
+          file CDATA #REQUIRED>
+<!ELEMENT back (explain, exercise_tool)>
+<!ATTLIST back
+          file CDATA #REQUIRED>
+<!ELEMENT explain (#PCDATA)>
+<!ELEMENT exercise_tool (barbell | only_body | dumbell | machine)+>
+<!ELEMENT only_body (name+, method1, method2, method3, method4?, image, youtube)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+          language CDATA #REQUIRED>
+<!ELEMENT method1 (#PCDATA)>
+<!ELEMENT method2 (#PCDATA)>
+<!ELEMENT method3 (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ATTLIST image
+          file CDATA #REQUIRED>
+<!ELEMENT youtube (#PCDATA)>
+<!ATTLIST youtube
+          link CDATA #REQUIRED>
+<!ELEMENT machine (name+, method1, method2, method3, method4?, image, youtube)>
+<!ATTLIST machine
+          id CDATA #IMPLIED>
+<!ELEMENT barbell (name+, method1, method2, method3, method4?, image, youtube)>
+<!ELEMENT method4 (#PCDATA)>
+<!ELEMENT chest (explain, exercise_tool)>
+<!ATTLIST chest
+          file CDATA #REQUIRED>
+<!ELEMENT abdomen (explain, exercise_tool)>
+<!ATTLIST abdomen
+          file CDATA #REQUIRED>
+<!ELEMENT arm (explain, exercise_tool)>
+<!ATTLIST arm
+          file CDATA #REQUIRED>
+<!ELEMENT lower (thigh, calf)>
+<!ATTLIST lower
+          file CDATA #REQUIRED>
+<!ELEMENT thigh (explain, exercise_tool)>
+<!ATTLIST thigh
+          file CDATA #REQUIRED>
+<!ELEMENT dumbell (name+, method1, method2, method3, method4?, method5?, image, youtube)>
+<!ELEMENT method5 (#PCDATA)>
+<!ELEMENT calf (explain, exercise_tool)>
+<!ATTLIST calf
+          file CDATA #REQUIRED>
